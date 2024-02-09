@@ -7,5 +7,9 @@ public class Main {
         pizza.extraToppings();
         pizza.takeAway();
         pizza.getBill();
+
+        DeluxPizza dPizza = new DeluxPizza(true);
+        dPizza.takeAway();
+        dPizza.getBill();
     }
 }
